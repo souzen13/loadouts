@@ -2,22 +2,40 @@
 LOADOUTS =  {
     ["cop"] = {
         name = "Cop",
-        permission_level = 0,
-        weapons = { "WEAPON_PISTOL50", "WEAPON_STUNGUN", "WEAPON_NIGHTSTICK", "WEAPON_PUMPSHOTGUN", "WEAPON_FLAREGUN" },
+        permission_level = 3,
+        weapons = { "WEAPON_PISTOL50", "WEAPON_STUNGUN", "WEAPON_NIGHTSTICK", "WEAPON_FLAREGUN" },
+        skins = { "s_m_y_cop_01" }
+    },
+    ["cop2"] = {
+        name = "Cop2",
+        permission_level = 3,
+        weapons = { "WEAPON_PISTOL50", "WEAPON_STUNGUN", "WEAPON_NIGHTSTICK", , "WEAPON_FLAREGUN" },
+        skins = { "csb_cop",
+        "csb_trafficwarden",
+        "ig_trafficwarden"}
+    },
+    ["fbi"] = {
+        name = "FBI",
+        permission_level = 4,
+        weapons = { "WEAPON_PISTOL50", "WEAPON_STUNGUN", "WEAPON_NIGHTSTICK", "WEAPON_PUMPSHOTGUN", "WEAPON_FLAREGUN", "WEAPON_ASSAULTSMG" },
         skins = { "s_m_y_swat_01" }
     },
-    ["sco19"] = {
-        name = "SCO19",
-        permission_level = 2,
-        weapons = { "WEAPON_PISTOL50", "WEAPON_STUNGUN", "WEAPON_NIGHTSTICK", "WEAPON_PUMPSHOTGUN", "WEAPON_FLAREGUN", "WEAPON_ASSAULTSMG" },
-        skins = { "s_m_y_swat_01"}
-    },
-    ["test"] = {
-        name = "Test Loadout",
-        permission_level = 10,
-        weapons = { "WEAPON_PISTOL50", "WEAPON_STUNGUN", "WEAPON_NIGHTSTICK", "WEAPON_PUMPSHOTGUN", "WEAPON_FLAREGUN", "WEAPON_ASSAULTSMG" },
-        skins = { "s_m_y_swat_01" }
-    },
+    
+    ["inspecteur"] = {
+        name = "Inspecteur",
+        permission_level = 5,
+        weapons = { "WEAPON_HEAVYPISTOL", "WEAPON_STUNGUN", "WEAPON_NIGHTSTICK", , "WEAPON_FLAREGUN" }
+        skins = {"s_m_m_ciasec_01" }
+    
+    ["medic"] = {
+        name = "Medic",
+        permissions_level = 2
+        weapons = { "WEAPON_FLAREGUN", "WEAPON_PETROLCAN" },
+        skins = {"s_m_m_paramedic_01",
+            "s_f_y_scrubs_01"
+            }
+    
+    
     ["random"] = {
         name = "Random",
         weapons = { "WEAPON_PETROLCAN" },
